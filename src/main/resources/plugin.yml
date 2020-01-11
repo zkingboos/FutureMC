@@ -1,0 +1,5 @@
+main: me.zking.future.login.Login
+name: Login
+version: 1.0.0
+author: zkingboos_
+softdepend: [FutureCore]
