@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: core/kotlin-stdlib-1.3.61.jar core/kotlin-stdlib-jdk8-1.3.61
+ .jar core/kotlin-stdlib-jdk7-1.3.61.jar core/kotlin-stdlib-common-1.3.6
+ 1.jar core/kotlin-reflect-1.3.61.jar core/annotations-13.0.jar core/com
+ mons-dbcp2-2.6.0.jar core/commons-logging-1.2.jar core/commons-pool2-2.
+ 6.2.jar

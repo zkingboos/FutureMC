@@ -1,0 +1,5 @@
+name: FutureCore
+version: 1.0.0
+author: zkingboos_
+main: me.zking.future.core.Core
+softdepend: [LuckPerms, Vault]

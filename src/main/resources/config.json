@@ -1,0 +1,9 @@
+{
+  "website": "futuremc.com",
+  "credentials": {
+    "host": "localhost:3306",
+    "user": "root",
+    "password": "",
+    "database": "futuremc"
+  }
+}
