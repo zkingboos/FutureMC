@@ -25,6 +25,7 @@ class SqlFactory(
         val ps = con.prepareStatement(query).sync(ob)
         val set = ps.executeQuery().also {
             if (!it.next()) return Optional.empty()
+//Close the connections here
         }
 
         val result = f?.let {
