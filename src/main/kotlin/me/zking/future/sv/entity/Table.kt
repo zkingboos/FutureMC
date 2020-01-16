@@ -14,6 +14,7 @@ class Table(
 
     private val lines = mutableListOf<TableLine>()
 
+//Convert to own syntax
     fun setLine(line: Int, text: String) = lines.add(TableLine(line, text, null))
     fun setLine(line: Int, c: TableConsumer) = lines.add(TableLine(line, null, c))
 
