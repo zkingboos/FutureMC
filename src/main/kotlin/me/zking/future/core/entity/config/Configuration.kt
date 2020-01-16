@@ -17,8 +17,11 @@ abstract class Configuration(
 
     private fun load() {
         val content = Files.toString(file.file, Charsets.UTF_8)
-        val data = Core.gson.fromJson<Map<String, Any?>>(content, Map::class.java)
-        maps.run { clear() ; putAll(data) }
+       val data = Core.gson.fromJson<Map<String, Any?>>(content, Map::class.java)
+maps.also {
+clear()
+putAll(data)
+}
     }
 
     private fun save() {
